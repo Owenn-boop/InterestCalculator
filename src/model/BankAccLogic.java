@@ -21,6 +21,6 @@ public class BankAccLogic {
 	
 	// returns info on bank account
 	public String printBankAccount(BankAccount bankAcc) {
-		return "Account Holder: " + bankAcc.getAccountHolder() + " Balance: " + bankAcc.getBalance() + " Interest Rate: " + bankAcc.getInterestRate();
+		return "Account Holder: " + bankAcc.getAccountHolder() + " Balance: $" + bankAcc.getBalance() + " Interest Rate: " + bankAcc.getInterestRate() + "%";
 	}
 }

@@ -45,7 +45,7 @@ public class TestBankAccLogic {
 		bankAcc.setAccountHolder("Owenn Herrmann");
 		bankAcc.setBalance(1000);
 		bankAcc.setInterestRate(0.45);
-		assertEquals("Account Holder: Owenn Herrmann Balance: 1000.0 Interest Rate: 0.45", bankLogic.printBankAccount(bankAcc));
+		assertEquals("Account Holder: Owenn Herrmann Balance: $1000.0 Interest Rate: 0.45%", bankLogic.printBankAccount(bankAcc));
 	}
 	
 	// testing the rounding method of BankAccLogic
